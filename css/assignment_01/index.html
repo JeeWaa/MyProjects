@@ -33,6 +33,35 @@
             bottom: 0;
         }
 
+        body > div{
+            background-color: white;
+            height: 120px;
+            width: 120px;
+            position: absolute;
+            z-index: 2;
+        }
+
+        body > div:nth-child(5){
+            left: 0;
+            top: 0;
+            border-bottom-right-radius: 120px;
+        }
+        body > div:nth-child(6){
+            right: 0;
+            top: 0;
+            border-bottom-left-radius: 120px;
+        }
+        body > div:nth-child(7){
+            left: 0;
+            bottom: 0;
+            border-top-right-radius: 120px;
+        }
+        body > div:nth-child(8){
+            right: 0;
+            bottom: 0;
+            border-top-left-radius: 120px;
+        }
+
     </style>
 </head>
 <body>
@@ -41,6 +70,11 @@
 <section></section>
 <section></section>
 <section></section>
+
+<div></div>
+<div></div>
+<div></div>
+<div></div>
 
 </body>
 </html>
